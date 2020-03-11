@@ -1,14 +1,40 @@
-.row{
-    height:50px;
-    background-color:#e6e6e6;
+body {
+    width: 100%;
 }
 
-.row-1{
-    height: 75px;
+#heading {
+    font-family: 'Anton', sans-serif;
+}
+
+.body-font {
+    font-family: 'Abel', sans-serif;
+}
+
+#codeup-design {
+    font-size: 2em;
+}
+
+.row{
+    height:30px;
+    background-color:#e6e6e6;
+    flex-wrap: nowrap;
+
+}
+
+.row-2{
+    height: 60px;
     background-color: #f0f0f0
 }
 
 .logo{
     height: 105px;
     width: 105px;
+}
+
+.row-4{
+    height: 50px;
+}
+
+.row-5 {
+    font-size: 0.75em;
 }
