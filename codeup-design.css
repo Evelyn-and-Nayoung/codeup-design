@@ -2,6 +2,10 @@ body {
     width: 100%;
 }
 
+a{
+    color:black;
+}
+
 #heading {
     font-family: 'Anton', sans-serif;
 }
@@ -12,6 +16,43 @@ body {
 
 #codeup-design {
     font-size: 2em;
+}
+
+#red-circle{
+    background-color: #e6563b;
+    height: 105px;
+    width: 105px;
+    border: 7px solid white;
+    color:white;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#orange-circle{
+    background-color: #eb9d3a;
+    height: 105px;
+    width: 105px;
+    border: 7px solid white;
+    color:white;
+    font-family: 'Anton', sans-serif;
+}
+
+#green-circle{
+    background-color: #7cb06c;
+    height: 105px;
+    width: 105px;
+    border: 7px solid white;
+    color:white;
+    font-family: 'Anton', sans-serif;
+}
+
+#blue-circle{
+    background-color: #00aba9;
+    height: 105px;
+    width: 105px;
+    border: 7px solid white;
+    color:white;
+    font-family: 'Anton', sans-serif;
 }
 
 .row{
@@ -37,4 +78,23 @@ body {
 
 .row-5 {
     font-size: 0.75em;
+}
+
+.row-8{
+    height: 100px;
+}
+
+.row-11{
+    height: 110px;
+}
+
+.row-12{
+    height: 110px;
+}
+
+.rounded-circle{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 28px;
 }
