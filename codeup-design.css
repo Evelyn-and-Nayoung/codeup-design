@@ -18,10 +18,17 @@ a{
     font-size: 2em;
 }
 
+.big-circle{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 28px;
+}
+
 #red-circle{
     background-color: #e6563b;
-    height: 105px;
-    width: 105px;
+    height: 120px;
+    width: 120px;
     border: 7px solid white;
     color:white;
     font-family: 'Anton', sans-serif;
@@ -30,8 +37,8 @@ a{
 
 #orange-circle{
     background-color: #eb9d3a;
-    height: 105px;
-    width: 105px;
+    height: 120px;
+    width: 120px;
     border: 7px solid white;
     color:white;
     font-family: 'Anton', sans-serif;
@@ -39,8 +46,8 @@ a{
 
 #green-circle{
     background-color: #7cb06c;
-    height: 105px;
-    width: 105px;
+    height: 120px;
+    width: 120px;
     border: 7px solid white;
     color:white;
     font-family: 'Anton', sans-serif;
@@ -48,8 +55,8 @@ a{
 
 #blue-circle{
     background-color: #00aba9;
-    height: 105px;
-    width: 105px;
+    height: 120px;
+    width: 120px;
     border: 7px solid white;
     color:white;
     font-family: 'Anton', sans-serif;
@@ -85,16 +92,66 @@ a{
 }
 
 .row-11{
-    height: 110px;
+    height: 130px;
 }
 
 .row-12{
-    height: 110px;
+    height: 130px;
 }
 
-.rounded-circle{
+.row-17 {
+    height: auto;
+}
+#apple-ipad {
+    background-color: #e6e6e6;
+    height: auto;
+    width: 640px;
+
+}
+
+.border{
+    border: 100px solid #e6e6e6;
+}
+
+img .img-thumbnail {
+    background-color: #e6e6e6;
+    border: 100px solid #e6e6e6;
+}
+
+.bottom-circle{
+    display:flex;
+    justify-content: space-around;
+
+}
+.small-circle {
     display:flex;
     align-items:center;
     justify-content: center;
-    font-size: 28px;
+    width: 18px;
+    height: 18px;
+}
+
+#small-red-circle {
+    background-color: #e6563b;
+    margin-left: auto;
+    font-size: 10px;
+    margin-right:5px;
+}
+
+#small-yellow-circle{
+    background-color:#eb9d3a;
+    font-size:10px;
+    margin-right: 5px;
+}
+
+#small-green-circle{
+    background-color: #7cb06c;
+    font-size:10px;
+    margin-right:5px;
+}
+
+#small-blue-circle{
+    background-color: #00aba9;
+    font-size:10px;
+
 }
