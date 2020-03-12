@@ -100,7 +100,10 @@ a{
 }
 
 .row-17{
-    height: 235px;
+    height: 500px;
+    display:flex;
+
+    flex-direction:column;
 }
 .apple-ipad{
     border: 8px solid #e6e6e6;
@@ -116,16 +119,21 @@ a{
 }
 
 #feature-text{
-    margin-left:10px;
+/*padding-right: 100px;*/
+    margin-left: 25px;
 }
 
 .bottom-circle{
-    display:flex;
-    justify-content: space-around;
+    display:inline-flex;
+    flex-wrap: nowrap;
+    /*display:flex;*/
+    /*justify-content: space-around;*/
 
 }
 .small-circle {
-    display:flex;
+    display:inline-flex;
+    flex-wrap:nowrap;
+    margin-left: 0 auto;
     align-items:center;
     justify-content: center;
     width: 18px;
@@ -133,28 +141,34 @@ a{
     font-family: 'Anton', sans-serif;
 }
 
+.colored-circles{
+    display:inline-flex;
+    justify-content: flex-end;
+}
+
+
 #small-red-circle {
     background-color: #e6563b;
-    margin-left: auto;
     font-size: 10px;
-    margin-right:5px;
+
 }
 
 #small-yellow-circle{
     background-color:#eb9d3a;
     font-size:10px;
-    margin-right: 5px;
+
 }
 
 #small-green-circle{
     background-color: #7cb06c;
     font-size:10px;
-    margin-right:5px;
 }
 
 #small-blue-circle{
     background-color: #00aba9;
     font-size:10px;
-    margin-right:10px;
+
 
 }
+
+
