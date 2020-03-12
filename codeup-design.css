@@ -90,8 +90,18 @@ a{
     font-size: 0.75em;
 }
 
-.row-8{
+.row-7 {
     height: 100px;
+
+}
+
+h1 #heading {
+
+}
+
+
+.row-8{
+    height: 50px;
 }
 
 .row-11{
