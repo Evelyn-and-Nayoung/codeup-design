@@ -1,7 +1,10 @@
 
 
+
 body {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+
 
 }
 
@@ -106,6 +109,7 @@ h1 #heading {
 
 .row-11{
     height: 130px;
+
 }
 
 .row-12{
@@ -113,23 +117,27 @@ h1 #heading {
 }
 
 .row-17{
-    height: 500px;
-    display:flex;
+    height: 250px;
 
-    flex-direction:column;
+
+}
+
+.row-19{
+    height: 250px;
+
 }
 .apple-ipad{
-    border: 8px solid #e6e6e6;
-    width: 95%;
-    border-radius: 5px;
-    margin: 0 auto;
+    /*border: 8px solid #e6e6e6;*/
+    width: 100%;
+    /*border-radius: 5px;*/
+    /*margin: 0 auto;*/
 }
 
-#apple-ipad {
-    background-color: #e6e6e6;
-    height: auto;
-    width: 200px;
-}
+/*#apple-ipad {*/
+/*    background-color: #e6e6e6;*/
+/*    height: auto;*/
+/*    width: 100%;*/
+/*}*/
 
 #feature-text{
 /*padding-right: 100px;*/
