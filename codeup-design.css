@@ -64,14 +64,14 @@ a{
 
 .row{
     height:30px;
-    background-color:#e6e6e6;
+    background-color:#f0f0f0;
     flex-wrap: nowrap;
 
 }
 
 .row-2{
     height: 60px;
-    background-color: #f0f0f0
+    background-color: white;
 }
 
 .logo{
@@ -99,23 +99,24 @@ a{
     height: 130px;
 }
 
-.row-17 {
-    height: auto;
+.row-17{
+    height: 235px;
 }
+.apple-ipad{
+    border: 8px solid #e6e6e6;
+    width: 95%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
 #apple-ipad {
     background-color: #e6e6e6;
     height: auto;
-    width: 640px;
-
+    width: 200px;
 }
 
-.border{
-    border: 100px solid #e6e6e6;
-}
-
-img .img-thumbnail {
-    background-color: #e6e6e6;
-    border: 100px solid #e6e6e6;
+#feature-text{
+    margin-left:10px;
 }
 
 .bottom-circle{
@@ -129,6 +130,7 @@ img .img-thumbnail {
     justify-content: center;
     width: 18px;
     height: 18px;
+    font-family: 'Anton', sans-serif;
 }
 
 #small-red-circle {
@@ -153,5 +155,6 @@ img .img-thumbnail {
 #small-blue-circle{
     background-color: #00aba9;
     font-size:10px;
+    margin-right:10px;
 
 }
