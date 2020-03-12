@@ -120,7 +120,8 @@ a{
 
 #feature-text{
 /*padding-right: 100px;*/
-    margin-left: 25px;
+    margin: auto;
+
 }
 
 .bottom-circle{
@@ -133,7 +134,7 @@ a{
 .small-circle {
     display:inline-flex;
     flex-wrap:nowrap;
-    margin-left: 0 auto;
+    margin-left: auto;
     align-items:center;
     justify-content: center;
     width: 18px;
@@ -142,8 +143,14 @@ a{
 }
 
 .colored-circles{
-    display:inline-flex;
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circles-move {
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
+    /*align-items: flex-end;*/
 }
 
 
