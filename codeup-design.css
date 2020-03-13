@@ -115,7 +115,10 @@ a{
 .row-17{
     height: 250px;
 
+}
 
+.side-links{
+    margin-bottom: 20px;
 }
 
 .row-19{
@@ -127,6 +130,14 @@ a{
     width: 100%;
     border-radius: 5px;
     margin: 0 auto;
+}
+
+.mobile-phone{
+    border:3px solid #e6e6e6;
+    width:25%;
+    height:25%;
+    margin-right: 10px;
+
 }
 
 /*#apple-ipad {*/
